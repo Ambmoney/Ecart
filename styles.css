@@ -1,0 +1,23 @@
+*,** {
+  box-sizing: border-box;
+
+}
+
+.main-nav{ 
+align-items: center;
+flex-direction: column;
+}
+
+body {
+  margin: 0;
+  align-items: center;
+  font-family: raleway;
+  padding: 20px;
+  display: inline-block;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+ 
+}
+
