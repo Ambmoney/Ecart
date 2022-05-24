@@ -10,11 +10,16 @@
   font-size: 0.8rem;
   color: var(--text);
   text-decoration: none;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  
 }
 .main-nav{ 
 margin: 0;
 width: 100%;
 list-style: none;
+
 }
 li {
   display: inline;
@@ -22,7 +27,8 @@ li {
 }
 
 li a:hover {
-  
+  background: var(--text);
+  border-color: var(--text);
 }
 
 header {
@@ -94,5 +100,23 @@ h1{
   padding: 10vh 0;
   background: #123;
   color: var(--text);
-   
+
+}
+.btn{
+  border-color: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+.btn-danger {
+  background-color: red;
+  border-color: none;
+  color: var(--text);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
 }
