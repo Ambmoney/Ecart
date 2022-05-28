@@ -103,18 +103,18 @@ h1{
 
 }
 .btn{
-  border-color: none;
-  padding: 15px 32px;
+  border-style: none;
+  padding: 10rem 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
 
 }
-.btn-danger {
+.btn .btn-danger {
   background-color: red;
   border-color: none;
   color: var(--text);
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

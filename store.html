@@ -29,12 +29,18 @@
 <section class="container content-section">
   <h1 class="brand-name brand-name-large">
     Canvas And Crane</h1>
+<div class="cart-row">
   <h2 class=" section-header">Templates</h2>
-    <div class="shop-items">
-      <div class="shop-item">
-        
-    <div class = "cart-items">
+  <span class="cart-item cart-header cart column"> ITEM</span>
+  <span class="cart-item cart-header cart column"> PRICE</span>
+  <span class="cart-item cart-header cart column"> QUANTITY</span>
+</div>
+  <div class="shop-items">
+    <div class="shop-item">
+      
+      <div class = "cart-items">
         <div class ="cart-row">
+          <div class="cart-item cart-column">
           <img class="cart-item-image" src="images/sheets1.jpg" alt=""
           width="200"
               height="200">
@@ -45,16 +51,18 @@
       <div class="cart-quantity cart-column">
         <input type="cart-quantity-input" type="number" value="1">
         <button class="btn btn-danger" type="button">Remove</button>
-
+      </div>
       </div>
 
-
-        <span class="shop-item-title">Javascript Cheat Sheet</span>
-        <img class="shop-item-image"src="images/sheets1.jpg" alt=""
+      <div class="cart-row">
+        <div class="cart-item cart-column">
+          <img class="shop-item-image"src="images/sheets1.jpg" alt=""
         width="200"
             height="200">
-        <div class="shop-item-details">
-          <span class="shop-item-price">12.99</span>
+        <span class="shop-item-title">Javascript Cheat Sheet</span>
+      </div>
+          <span class="cart-price cart-column">12.99</span>
+          <div class="cart-quantity cart-column">
           <button class="btn btn-primary shop-item-button"
           type="button"> ADD TO CART</button>
           <input class="cart-quantity-input" type="number" value="2">
