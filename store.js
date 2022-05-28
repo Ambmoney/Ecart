@@ -47,6 +47,14 @@ function addToCartClicked(event) {
   addItemToCart(title, price, imgSrc)
 }
 
+function addItemToCart(title, price, imagesSrc) {
+  var cartRow = document.createElement('div')
+  cartRow.innerText = title
+  var cartItems = document.getElementByClassName('cart-items')[0]
+  cartItems.append(cartRow)
+
+}
+
 function updateCartTotal(){
  var cartItemContainer = document.getElementsByClassName('cart-items')[0]
  var cartRows= cartItemContainer.getElementsByClassName('cart-row')
